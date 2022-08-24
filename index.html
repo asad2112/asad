@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <!-- Require Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content=" A Simple Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tiltle -->
+    <title>Paul Lapkin</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="./Vendors/css/normalize.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.3/dist/css/uikit.min.css" />
+
+    <link rel="stylesheet" href="./Resources/css/style.css" />
+
+    <link rel="stylesheet" href="./Resources/css/query.css">
+
+    <meta name="theme-color" content="#ff2b4a">
+</head>
+<body>
+    <!-- Start Hero Section -->
+    <header id="hero">
+            <nav class="nav clearfix" data-uk-sticky="start: 200; animation: uk-animation-slide-top">
+                <div class="container">
+                <div class="logo">
+                    <a href="">
+                        <img src="./Resources/img/logo.png" alt="paul">
+                    </a>
+                </div>
+                <div class="menu">
+                    <a href="javascript:void()" onclick="openMenu()">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            </nav>
+            <div class="menu-container" id="menu-container" onclick="closeMenu()">
+                <div class="container">
+                    <div class="close-btn">
+                        <a href=""><ion-icon name="close-circle-outline"></ion-icon></a>
+                    </div>
+                    <ul class="menu-item">
+                        <li><a onclick="closeMenu()" href="#hero">Home</a></li>
+                        <li><a onclick="closeMenu()" href="#about">About</a></li>
+                        <li><a onclick="closeMenu()" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1>Paul Lapkin</h1> <br>
+                <span>#User Experience #Music #Creative Direction</span>
+            </div>
+            <div class="next-section">
+                <a href="#about">
+                    <ion-icon name="download-outline"></ion-icon>
+                </a>
+            </div>
+    </header>
+
+    <!-- End Hero Section -->
+
+    <!-- Start About Section -->
+
+    <section id="about">
+        <div class="container">
+            <div class="ab-grid">
+                <div class="ab-grid-item">
+                    <img src="./paul-lapkin/resources/img/paul.jpg" alt="paul" />
+                </div>
+                <div class="ab-grid-item">
+                    <h4>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis quaerat id odio. Consequuntur quis provident nam beatae, quia, rerum expedita, consequatur dolorum officiis ducimus ipsa non quo! <br /><br /> Eligendi cumque reprehenderit quibusdam. Maiores ea quam fuga ad, veritatis harum possimus recusandae? Officia, perferendis atque aperiam rem fugit maiores voluptatem voluptatibus et?
+                    </p>
+                    <div class="cta-btn">
+                        <a href="" class="btn btn-full">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start process Section -->
+    <section id="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>My working process</h2>
+                <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-grid-item">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                    <h4>Design</h4>
+                </div>
+                <div class="process-grid-item">
+                    <img src="./paul-lapkin/resources/img/mw.png" alt="magic wand">
+                    <h4>Development</h4>
+                </div>
+                <div class="process-grid-item">
+                    <ion-icon name="american-football-outline"></ion-icon>
+                    <h4>Testing</h4>
+                </div>
+                <div class="process-grid-item">
+                    <ion-icon name="airplane-outline"></ion-icon>
+                    <h4>Launch</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End process Section -->
+
+    <!-- End EXP Section -->
+    <section id="exp">
+        <div class="container">
+            <div class="exp-grid">
+                <div class="exp-grid-item">
+                    <h2>Work Experienc</h2>
+                    <div class="jb">
+                        <h4>Mad Max Design</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="jb">
+                        <h4>Crazy Design</h4>
+                        <span>OCT 2014 - june 2015</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                    </div>
+                </div>
+                <div class="exp-grid-item">
+                    <h2>Education</h2>
+                    <div class="jb">
+                        <h4>Maddison University</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="jb">
+                        <h4>Max Design & Art Institute</h4>
+                        <span>OCT 2014 - Present</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End EXP Section -->
+
+    <!-- Start Work Section -->
+    <section id="work">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Latest Works</h2>
+                <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
+            </div>
+            <div class="work-filter">
+                <button type="button" data-filter="all">all</button>
+                <button type="button" data-filter=".web-design">Web Design</button>
+                <button type="button" data-filter=".web-development">Web Development</button>
+                <button type="button" data-filter=".wordpress">Wordpress</button>
+            </div>
+            <div class="work-grid" data-uk-lightbox="animation: scale">
+                <div class="work-grid-item mix web-design">
+                    <a href="./paul-lapkin/resources/img/lwp1.jpg" data-caption="Web Design">
+                        <img src="./paul-lapkin/resources/img/lwp1.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wordpress">
+                    <a href="./paul-lapkin/resources/img/lwp2.jpg">
+                        <img src="./paul-lapkin/resources/img/lwp2.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-design">
+                    <a href="./paul-lapkin/resources/img/lwp3.jpg">
+                        <img src="./paul-lapkin/resources/img/lwp3.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-development">
+                    <a href="./paul-lapkin/resources/img/lwp4.jpg">
+                        <img src="./paul-lapkin/resources/img/lwp4.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wordpress">
+                    <a href="./paul-lapkin/resources/img/lw5.jpg">
+                        <img src="./paul-lapkin/resources/img/lw5.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wordpress">
+                    <a href="./paul-lapkin/resources/img/lwp6.jpg">
+                        <img src="./paul-lapkin/resources/img/lwp6.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-design">
+                    <a href="./paul-lapkin/resources/img/lwp7.jpg">
+                        <img src="./paul-lapkin/resources/img/lwp7.jpg" alt="work">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Work Section -->
+    <!-- Start Testimonial Section -->
+    <section id="tm">
+        <div class="container">
+            <div class="tm-grid">
+                <div class="tm-grid-item">
+                    <img src="./Resources/img/quote.png" alt="Quote" class="quote" />
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel eligendi aliquid nam incidunt voluptates quas veritatis architecto enim asperiores.
+                    </p>
+                    <img src="./Resources/img/signature.png" alt="Signature" class="signature">
+                    <h4>Deniel Croft</h4>
+                    <span>Creative Designer, Levy</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonial Section -->
+    <!-- Start Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="ct-grid">
+                <div class="ct-grid-item">
+                    <h2>Leave a message</h2>
+                    <form action="./index.php" method="post">
+                        <input type="text" name="name" placeholder="Name *" required>
+                        <input type="email" name="email" placeholder="email *" required>
+                        <input type="text" name="subject" placeholder="Subject *" required>
+                        <textarea name="message" placeholder="Message *" required></textarea>
+                        <div class="sub-btn">
+                            <input type="submit" class="btn btn-full" value="Hire Me">
+                        </div>
+                    </form>
+                </div>
+                <div class="ct-grid-item nested-ct-grid">
+                    
+                        <div class="nested-ct-grid-item">
+                            <h2>Address</h2>
+                            <p>GUlsan sales office. Sa Tower Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dolore.</p>
+                        </div>
+                        <div class="nested-ct-grid-item">
+                            <h2>Phone</h2>
+                            <p>GUlsan sales office. Sa Tower Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dolore.</p>
+                        </div>
+                        <div class="nested-ct-grid-item">
+                            <h2>Contact</h2>
+                            <p>GUlsan sales office. Sa Tower Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dolore.</p>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- Start Footer Section -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="social-list">
+                <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+            </ul>
+            <p class="copyright">
+                Copyright: Asadul | All Right Reserve.
+            </p>
+            <div class="totop">
+                <a href="#" data-uk-totop data-uk-scroll></a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+
+    <!-- JS Files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./Vendors/js/mordenizr.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./paul-lapkin/vendors/js/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.3/dist/js/uikit-icons.min.js"></script>
+
+    <script src="./Resources/js/particles.min.js"></script>
+    <script src="./Resources/js/app.js"></script>
+
+    <script src="./Resources/js/main.js"></script>
+</body>
+</html>
